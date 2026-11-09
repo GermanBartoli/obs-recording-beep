@@ -1,5 +1,22 @@
 # OBS Recording Beep
 
+**Escuchá cuándo empieza, se pausa, se reanuda y termina tu grabación en OBS Studio para Windows.**
+
+[![Repositorio](https://img.shields.io/badge/GitHub-GermanBartoli-181717?logo=github)](https://github.com/GermanBartoli/obs-recording-beep)
+[![Verificaciones](https://github.com/GermanBartoli/obs-recording-beep/actions/workflows/tests.yml/badge.svg)](https://github.com/GermanBartoli/obs-recording-beep/actions/workflows/tests.yml)
+
+[Empezar](#primeros-pasos) · [Mapa del repositorio](#mapa-del-repositorio) · [Autoría](#autoría-de-esta-documentación)
+
+![Vista del proyecto: OBS Recording Beep](docs/images/configuracion-obs.png)
+
+## Primeros pasos
+
+1. Descargá el código y conservá la carpeta del script.
+2. En OBS abrí **Herramientas → Scripts → +** y elegí `src/obs-recording-beep.lua`.
+3. Pulsá **Probar pitido** y luego usá los controles habituales de grabación. La guía detallada explica el orden y los límites de cada aviso.
+
+## Referencia y detalles
+
 **Escuchá cuándo empieza, se pausa, se reanuda y termina tu grabación.**
 
 [![Pruebas Lua](https://github.com/GermanBartoli/obs-recording-beep/actions/workflows/tests.yml/badge.svg)](https://github.com/GermanBartoli/obs-recording-beep/actions/workflows/tests.yml)
@@ -137,3 +154,15 @@ Las pruebas simulan OBS y el audio: verifican eventos, configuración, límites,
 ## Licencia y autor
 
 Creado por **[German Bartoli](https://github.com/GermanBartoli)**. Distribuido bajo [licencia MIT](LICENSE). Proyecto independiente, sin afiliación oficial con OBS Studio.
+
+## Mapa del repositorio
+
+- [CONTRIBUTING.md](<CONTRIBUTING.md>)
+- [LICENSE](<LICENSE>)
+- [docs/VALIDACION.md](<docs/VALIDACION.md>)
+
+## Autoría de esta documentación
+
+Repositorio mantenido por [Germán Bartoli](https://github.com/GermanBartoli). Guía revisada y actualizada con **Codex**, coautor de esta actualización documental. Los autores, colaboradores, licencias y recursos de terceros conservan sus créditos originales.
+
+Los commits de esta revisión incluyen `Co-authored-by: Codex <noreply@openai.com>`; esta atribución no modifica la autoría del historial anterior.
