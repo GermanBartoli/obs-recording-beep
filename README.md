@@ -19,14 +19,11 @@
 
 **Escuchá cuándo empieza, se pausa, se reanuda y termina tu grabación.**
 
-[![Pruebas Lua](https://github.com/GermanBartoli/obs-recording-beep/actions/workflows/tests.yml/badge.svg)](https://github.com/GermanBartoli/obs-recording-beep/actions/workflows/tests.yml)
 ![Plataforma: Windows](https://img.shields.io/badge/plataforma-Windows-0078D4)
 ![Lenguaje: Lua](https://img.shields.io/badge/lenguaje-Lua-2C2D72)
 ![Licencia: MIT](https://img.shields.io/badge/licencia-MIT-green)
 
 Complemento liviano para **OBS Studio en Windows**, implementado como un script Lua. Funciona con los botones y atajos de grabación que ya usás: no agrega controles paralelos, no necesita Python y no requiere compilar una DLL.
-
-![OBS Recording Beep instalado: activación, duración, frecuencia y prueba de sonido](docs/images/configuracion-obs.png)
 
 ## Qué hace
 
